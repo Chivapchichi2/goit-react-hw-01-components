@@ -1,19 +1,17 @@
 import React from 'react';
-import StatsList from './StatsList';
 import PropTypes from 'prop-types';
+import StatsList from './StatsList';
+import Description from './Description';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
     <div >
-      <div >
-        <img
-          src={avatar}
-          alt={name}
-        />
-        <p >{name}</p>
-        <p >@{tag}</p>
-        <p >{location}</p>
-      </div>
+      <Description
+        name={name}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+      />;
       <StatsList stats={stats} />
     </div>
   );
