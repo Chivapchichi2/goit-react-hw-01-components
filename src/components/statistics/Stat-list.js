@@ -3,7 +3,7 @@ import Stat from './Stat';
 import PropTypes from 'prop-types';
 
 const StatsList = ({ stats }) => (
-  <ul >
+  <ul className="stat-list">
     {stats.map(({id, label, percentage}) => (
       <Stat
         key= {id}

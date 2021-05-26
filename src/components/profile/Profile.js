@@ -5,7 +5,7 @@ import Description from './Description';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div >
+    <div  className="profile">
       <Description
         name={name}
         tag={tag}

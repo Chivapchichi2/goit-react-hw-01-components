@@ -2,7 +2,7 @@ import React from 'react';
 import Stat from './Stat';
 import PropTypes from 'prop-types';
 const StatsList = ({ stats }) => (
-  <ul >
+  <ul className="stats">
     {Object.entries(stats).map(stat => (
       <Stat
         key= {stat[0]}

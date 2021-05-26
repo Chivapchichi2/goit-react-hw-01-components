@@ -7,7 +7,7 @@ import statData from '../data/statistical-data.json';
  const App = () => {
   return (
       <header className="App-header">
-        <h1>React, Home Work 1 </h1>
+        <h1 className="App-title">React, Home Work 1 </h1>
       <Profile
         stats={user.stats}
         name={user.name}

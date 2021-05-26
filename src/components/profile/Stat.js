@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 const Stat = ({ label, quantity}) => {
   return (<li >
-    <span >{label.charAt(0).toUpperCase() + label.slice(1)} </span>
-    <span >{quantity}</span>
+    <span className="label">{label.charAt(0).toUpperCase() + label.slice(1)} </span>
+    <span className="quantity">{quantity}</span>
   </li>);
 };
 

@@ -2,14 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Description =({name, tag, location, avatar}) => {
-  return(<div >
+  return(<div className="description">
         <img
           src={avatar}
           alt={name}
+          className="avatar"
         />
-        <p >{name}</p>
-        <p >@{tag}</p>
-        <p >{location}</p>
+        <p className="name">{name}</p>
+        <p className="tag">@{tag}</p>
+        <p className="location">{location}</p>
       </div>)
 }
 

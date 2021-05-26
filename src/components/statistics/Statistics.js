@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import StatsList from './Stat-list';
 
 const Statistics = ({title, stats }) => (
-    <section >
-      {title && (<h2>{title}</h2>)}
+    <section className="statistics">
+      {title && (<h2 className="title">{title}</h2>)}
       <StatsList stats={stats} />
     </section>
   );
