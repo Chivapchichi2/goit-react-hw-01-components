@@ -27,7 +27,7 @@ import transactions from '../data/transactions.json';
         friends={friends}
       />
       <TransactionHistory
-        transactions={transactions}
+        items={transactions}
       />
     </header>
   );
