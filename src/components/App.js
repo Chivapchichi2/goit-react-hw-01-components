@@ -1,6 +1,8 @@
 import React from 'react';
 import Profile from './profile/Profile';
+import Statistics from './statistics/Statistics';
 import user from '../data/user.json';
+import statData from '../data/statistical-data.json';
 
  const App = () => {
   return (
@@ -13,7 +15,11 @@ import user from '../data/user.json';
         location={user.location}
         avatar= {user.avatar}
       />
-      </header>
+      <Statistics
+        stats={statData}
+        // title="Upload stats"
+      />
+    </header>
   );
 }
 
