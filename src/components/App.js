@@ -9,9 +9,11 @@ import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
 
  const App = () => {
-  return (
+   return (
+    <>
       <header className="App-header">
         <h1 className="App-title">React, Home Work 1 </h1>
+      </header>
       <Profile
         stats={user.stats}
         name={user.name}
@@ -28,8 +30,8 @@ import transactions from '../data/transactions.json';
       />
       <TransactionHistory
         items={transactions}
-      />
-    </header>
+       />
+    </>
   );
 }
 
