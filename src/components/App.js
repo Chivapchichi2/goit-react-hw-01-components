@@ -27,7 +27,7 @@ import transactions from '../data/transactions.json';
           />
           <Statistics
             stats={statData}
-            // title="Upload stats"
+            title="Upload stats"
           />
           <FriendList
             friends={friends}
