@@ -10,7 +10,7 @@ const Stat = ({ label, percentage, bg}) => {
 };
 
 Stat.defaultProps = {
-  st: { backgroundColor: "red" },
+  bg: { backgroundColor: "red" },
 }
 
 Stat.propTypes = {

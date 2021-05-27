@@ -1,0 +1,8 @@
+.Friend-list {
+  width: 500px;
+  margin: 0 auto 30px;
+  padding: 5px 10px 10px 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 12px 13px 11px -16px rgba(6, 24, 37, 0.3);
+}

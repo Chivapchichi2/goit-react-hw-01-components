@@ -1,0 +1,32 @@
+.Friend {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 5px;
+  box-shadow: inherit;
+}
+
+.status {
+  background: tomato;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+.active {
+  composes: status;
+  background: lawngreen;
+}
+
+.avatar {
+  width: 100px;
+  margin: 15px 15px 15px 0;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.name {
+  margin: 0;
+}
