@@ -2,16 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import StatsList from './StatsList';
 import Description from './Description';
+import styles from './Profile.module.css'
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div  className="profile">
+    <div  className={styles.Profile}>
       <Description
         name={name}
         tag={tag}
         location={location}
         avatar={avatar}
-      />;
+      />
       <StatsList stats={stats} />
     </div>
   );

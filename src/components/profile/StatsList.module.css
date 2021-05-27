@@ -1,0 +1,7 @@
+.StatsList {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
